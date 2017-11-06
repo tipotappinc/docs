@@ -1,6 +1,6 @@
 # Summary
 
 * [Quickstart Guide](README.md)
-  * [Getting Started](getting-started.md)
+  * [Introduction](introduction.md)
 * [First Chapter](chapter1.md)
 
