@@ -1,6 +1,6 @@
 ## Introduction
  
-TipoTapp allows you to create several applications. Each application that you create will own its data and will also be isolated from other applications.    
+TipoTapp allows you to create several applications. Each application that you create will own its data and will also be isolated from other applications.   
 
 To guide you in creating your application on TipoTapp, we have provided a thorough manual that has been divided into several sections as seen on the menu on the left panel. This first guide, `(the Quickstart)` will cover the basics of creating and launching an application. It will not cover everything there is to know about this process.  
 
