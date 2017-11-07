@@ -1,9 +1,3 @@
----
-title: Quickstart
-weight: 2
-
----
-
 ## Introduction
  
 TipoTapp allows you to create several applications. Each application that you create will own its data and will also be isolated from other applications.    
