@@ -1,0 +1,14 @@
+{
+ "plugins": [ "theme-gestalt", "-theme-default","-autotheme",
+   
+"styles-sass-fix" ],
+ "pluginsConfig": {
+    "theme-gestalt": {
+        "excludeDefaultStyles": true
+    }
+},
+"styles": {
+    "website": "./node_modules/gitbook-plugin-theme-gestalt/src/scss/website.scss"
+}
+
+}

@@ -1,0 +1,23 @@
+{
+  "name": "tipodocs",
+  "version": "1.0.0",
+  "description": "documentation for TipoTapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Chestere baring",
+  "license": "ISC",
+  "dependencies": {
+    "gitbook-plugin-theme-coderdojosushicard": "^1.2.12",
+    "gitbook-plugin-theme-comscore": "0.0.3",
+    "gitbook-plugin-theme-creative": "^1.0.6",
+    "gitbook-plugin-theme-dianwoba": "0.0.19",
+    "gitbook-plugin-theme-faq": "^1.2.1",
+    "gitbook-plugin-theme-gestalt": "^1.0.2",
+    "gitbook-plugin-theme-official": "^2.1.1",
+    "gitbook-plugin-theme-yunzainfo": "^1.1.7",
+    "gitbook-theme-clarity": "0.0.2",
+    "gitbook-theme-comscore": "0.0.3"
+  }
+}
