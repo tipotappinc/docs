@@ -76,7 +76,7 @@ thus, creating the application will be much more faster.
 
 The **`App Name`** is the only required field here. You must ensure that the name entered is unique to your account. A user account cannot have apps sharing the same name. 
 
-[//]: # (This area explains the purpose of each field in creating an application)
+
 
 > **`Description`**  - Abstract/function of the Application  
 > **`App Icon`** - Select an Icon from a list of available Material Design icons.  
