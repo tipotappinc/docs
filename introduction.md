@@ -52,17 +52,7 @@ We'll name the app **Student Management System** and the following Tipos' are: *
 From the illustration above, each tipo has its fields/attributes that define its data. For example, the **`Student`** Tipo have the following fields: `Student ID`, `First Name`, `Middle Name`, `Last Name`, `Date of Birth`, `Gender`, `Address`, `Phone Number`, `Email`, `Admission date`, `Admission Number` and `Course`.
 
 
-{{< note title="Tip" >}}  
-Planning Application ideas itself consists of a number of steps and accordingly design, development and other stages are executed based on the plan. Here are the stepwise guide to have a successful execution.  
-1 . Know your purpose.  
-2 . Draft out what your intended application will do.  
-3 . Market Validation.  
-4 . Identify your skill set.  
-5 . Create a basic design.  
-6 . Finalize technology stack.  
-thus, creating the application will be much more faster.   
 
-{{< /note >}}
 
 <span style="color:#00A6B4;font-size: 1.2em;">To create an application,</span>  
 
@@ -153,9 +143,7 @@ The `Field` holds the name of the field and the `Type` specifies the type of dat
 
 ![Field type](/images/quickstart/image_011.png)
 
-{{< note title="Note" >}}
-Once a Tipo is saved, you cannot change the `Type` of any of its fields. If you need to modify a field type, then you should delete the current field and create a new one with the needed `Type`.
-{{< /note >}}
+
 
 When you turn on `Short Display`, the field will be visible whenever an instance of the Tipo is displayed in a listview. This can be seen when viewing the records of a certain Tipo or in a form where the particular Tipo is embedded in another Tipo (we'll see an example of this later on).
 
@@ -245,9 +233,7 @@ Lastly, add the `Student` Tipo with the following values.
  
 Adding `Allowed values` to a field will add a drop down menu to that field in the Tipo creation form, populated with the values you insert here.
  
-{{< warning title="Note" >}}
-Do not separate the options with commas, instead press the `Return` key after every option entered. This will ensure that every value entered before `Return` is a separate option. If you use commas, then the value ` Male, Female, Other` will be taken as a single option. If you use Return, then your options should look as shown below.
-{{< /note >}}
+
 
 ![Allowed values](/images/quickstart/image_013.png)
  
@@ -269,12 +255,7 @@ With `embed`, the Tipo will be embedded into the current Tipo. This is used in c
 
 With `reference` relationship, only the Tipo's key will be stored in the current Tipo.
 
-{{< note title="Note" >}}
-There are two caveats about the embedded Tipos that we want you to note at this point:
 
- - Whether or not the fields belonging to the embedded Tipo appear in listviews depends on the `Short Display` value of those fields and not on the `Short Display` value of the particular field in the current Tipo. To clarify this further, let's look at the Student Tipo. We haven't switched on the `Short Display` value for its Address field. However, the `Address` has some fields whose `Short Display` has been switched on. Therefore, these fields will be visible even though the `Address` field of the Student Tipo has been set to not be visible. If you don't want an embedded field to be displayed, you should turn off `Short Display` for all its fields as well.
- - When you select `embed` for a Tipo's field and also specify that field as `Mandatory`, the field will pass validation as long as there is any value entered in the embedded Tipo's fields. For example, in this example, we set the Student's Address field as `Mandatory`, but if you take a look at the `Address` Tipo, its fields haven't been set as `Mandatory`. Therefore, as long as the user enters a value for at least one Address field, then the form will pass. Obviously, this isn't the behaviour you'd like so you should also edit the Address Tipo and set some of its important field as `Mandatory` (e.g. `Address Line 1`, `Country`, `Zip/Postal Code`). We won't do this in this guide, we'll leave it up to you.
-{{< /note >}}
 
 ### Data Validation and Input Patterns
 
@@ -368,9 +349,6 @@ When you take a look at a Tipo's records from the listview, you will notice a se
 
 The Tipo record listview loads just enough records to fill the screen. If you have a large data set, you can load more records through continuous scrolling.
 
-{{< note title="Note" >}}
-When you begin typing out a search term, the UI changes immediately to show you records that fit the search criteria. You should note that without pressing the Return key, the records shown will have been picked from the ones that had been loaded. If you have a large dataset and you hadn't scrolled through all the records, thus getting them loaded up, then when you perform a search (without pressing Return), TipoTapp will only filter through the loaded records, so you might end up missing some records that contain the search term but weren't loaded. To ensure that the search is done on all records, submit the search term with Return, so that all records on the back-end are searched.
-{{< /note >}}
 
 ## Displaying Related Data
 
@@ -478,9 +456,20 @@ We are going to change the number of columns for the Student Tipo in Flow Layout
 
 You can see the 5 columns in the image above. If you had set the `Form Width` of a particular field previously, you might want to re-adjust the value you set for it to accommodate the increase in columns. In the above, we changed the `Form Width` of the First Name column to `3` so now it takes up 3 of the 5 columns.
 
-{{< note title="Note" >}}
-Remember that the `X Max Columns` value sets the maximum number of columns that can be shown for a particular screen size. It doesn't set a strict number of columns that will be shown for a particular device. Just because you set 5 columns for desktop doesn't mean all users using a computer to access the app will see the data in 5 columns. The TipoTapp UI is responsive and so the data will be adjusted according to the browser size. If a user is viewing the data on a smaller screen or browser window, then they will see a fewer number of columns.
-{{< /note >}}
+> #### Note::Congratulations!
+>
+> {% hint style='tip' %}
+Planning Application ideas itself consists of a number of steps and accordingly design, development and other stages are executed based on the plan. Here are the stepwise guide to have a successful execution.  
+1 . Know your purpose.  
+2 . Draft out what your intended application will do.  
+3 . Market Validation.  
+4 . Identify your skill set.  
+5 . Create a basic design.  
+6 . Finalize technology stack.  
+thus, creating the application will be much more faster. 
+{% endhint %}
+
+
 
 Setting the `X Max Columns` of a Tipo affects the following: list views that are in Flow Layout, forms and detail views.
 
