@@ -66,7 +66,7 @@ From the illustration above, each tipo has its fields/attributes that define its
 
 The **`App Name`** is the only required field here. You must ensure that the name entered is unique to your account. A user account cannot have apps sharing the same name. 
 
-
+[//]: # (This area explains the purpose of each field in creating an application)
 
 > **`Description`**  - Abstract/function of the Application  
 > **`App Icon`** - Select an Icon from a list of available Material Design icons.  
@@ -456,18 +456,6 @@ We are going to change the number of columns for the Student Tipo in Flow Layout
 
 You can see the 5 columns in the image above. If you had set the `Form Width` of a particular field previously, you might want to re-adjust the value you set for it to accommodate the increase in columns. In the above, we changed the `Form Width` of the First Name column to `3` so now it takes up 3 of the 5 columns.
 
-> #### Note::Congratulations!
->
-> {% hint style='tip' %}
-Planning Application ideas itself consists of a number of steps and accordingly design, development and other stages are executed based on the plan. Here are the stepwise guide to have a successful execution.  
-1 . Know your purpose.  
-2 . Draft out what your intended application will do.  
-3 . Market Validation.  
-4 . Identify your skill set.  
-5 . Create a basic design.  
-6 . Finalize technology stack.  
-thus, creating the application will be much more faster. 
-{% endhint %}
 
 
 
